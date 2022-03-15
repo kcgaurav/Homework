@@ -1,4 +1,4 @@
-# Homework# Homework### Automated ELK Stack Deployment
+# Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
    
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -65,9 +65,9 @@ because it allows a consistent and predictable configuration. Also, with an auto
 can be created and configured very quickly.
 
 The playbook implements the following tasks:
-- Configure maximum mapped memory with `sysctl` module
-- Install `docker.io` and `python3-pip` packages with `apt` module
-- Install docker `python` package with `pip`
+- Configure maximum mapped memory with -sysctl module
+- Install -docker.io and -python3-pip packages with -apt module
+- Install docker -python package with -pip
 - Enable systemd docker service
 - Run ELK docker container 
 
