@@ -99,4 +99,9 @@ SSH into the control node and follow the steps below:
 
 ![](Diagrams/Kibana.png)
 
+![](Scirpts/Filebeat/filebeat.png)
+
+![](Scirpts/Metricbeat/metricbeat.png)
+
+
 
