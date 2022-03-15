@@ -6,10 +6,10 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [DVWA Webserver Playbook](Ansible/playbook.md)
-  - [ELK Stack Playbook](ELK/install-elk.md)
-  - [Filebeat Playbook](Filebeat/Filebrat-config.md)
-  - [Metricbeat Playbook](Metricbeat/metricbeat-config.md)
+  - [DVWA Webserver Playbook](Scripts/Ansible/playbook.md)
+  - [ELK Stack Playbook](ScriptsELK/install-elk.md)
+  - [Filebeat Playbook](Scripts/Filebeat/Filebeat-config.md)
+  - [Metricbeat Playbook](Scripts/Metricbeat/metricbeat-config.md)
    
 
 This document contains the following details:
@@ -99,5 +99,4 @@ SSH into the control node and follow the steps below:
 
 ![](Diagrams/Kibana.png)
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-$ curl http://10.2.0.4:5601
+
