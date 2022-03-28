@@ -250,9 +250,9 @@
 
    -  When you attempt to inject this payload,  you will encounter a client-side limitation that will not allow you to enter the whole payload. You will need to find away around this limitation.
     
-    ![](Image/beef1.png)
+    ![](Images/beef1.png)
     
-    ![](Image/beef2.png)
+    ![](Images/beef2.png)
       
      
     
@@ -260,15 +260,15 @@
      
      - Social Engineering >> Pretty Theft
     
-    ![](Image/beef3.png)
+    ![](Images/beef3.png)
      
      - Social Engineering >> Fake Notification Bar
     
-    ![](Image/beef4.png)
+    ![](Images/beef4.png)
      
      - Host >> Get Geolocation (Third Party)
     
-    ![](Image/beef5.png)
+    ![](Images/beef5.png)
     
 
 ---
