@@ -141,7 +141,7 @@
     
     ![](Images/bwapp6.png)
 
-    Mitigation strategies:using multi-factored authentication, and enabling a lockout after a certain amount of failed login attempts.
+    Mitigation strategies: Using multi-factored authentication, and enabling a lockout after a certain amount of failed login attempts.
  
  
 
@@ -269,6 +269,8 @@
      - Host >> Get Geolocation (Third Party)
     
     ![](Images/beef5.png)
+    
+Mitigation strategies: Common method would be Input Validation.
     
 
 ---
