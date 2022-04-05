@@ -55,7 +55,7 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`: 
 
-![](Images/16-Bonus.png)
+![](Images/16-bonus.png)
 
 - Zenmap vulnerability script command: nmap -p 139,445 --script=smb-enum-shares 192.168.0.10
 
