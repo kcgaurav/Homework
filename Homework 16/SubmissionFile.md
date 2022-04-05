@@ -5,6 +5,7 @@
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
   Karl Fitgerald- Chairman & Chief Executive Officer
+  ![](Images/16-1.png)
 
 - How can this information be helpful to an attacker:
   Threat Actor could use this details to perform social enginerring attacks on the CEO to access to sensitive company information.
