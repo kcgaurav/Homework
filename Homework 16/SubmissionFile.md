@@ -30,7 +30,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
   Port 8080/TCP
   Services: Apache Tomcat/Coyote JSP engine ver 1.1
   
-  ![](Image/16-2.png)
+  ![](Images/16-2.png)
 
 #### Step 4: Recon-ng
 
@@ -39,8 +39,8 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Run the module. 
 
 
-![](Image/16-3.png)
-![](Image/16-4.png)
+![](Images/16-3.png)
+![](Images/16-4.png)
 
 Is Altoro Mutual vulnerable to XSS: 
  Yes
@@ -51,15 +51,15 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 - Command for Zenmap to run a service scan against the Metasploitable machine: nmap -T4-F --script ftp-vsftpd-backdoor 192.168.0.10
 
- ![](Image/16-5.png)
+ ![](Images/16-5.png)
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`: 
 
-![](Image/16-Bonus.png)
+![](Images/16-Bonus.png)
 
 - Zenmap vulnerability script command: nmap -p 139,445 --script=smb-enum-shares 192.168.0.10
 
-![](Image/16-6.png)
+![](Images/16-6.png)
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
