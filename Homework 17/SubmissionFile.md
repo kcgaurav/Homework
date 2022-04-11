@@ -113,6 +113,4 @@ C. Run the command that displays the target's computer system information:
 
    > Answer:sysinfo
 
----
-
 &copy; 2020 Trilogy Education Services, a 2U Inc Brand.   All Rights Reserved.
