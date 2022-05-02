@@ -16,8 +16,8 @@ Note: This is a public-facing windows server that VSI employees access.
 
 Answers:
 - An attempt was made to reset an account password
-   295 events were normal
-   2218 events were attack.
+  2218 events were attack.
+ ![](Images/19-2.png)
 
 Thi can be overcome by setting a minium time for password attempt, user account should be locked out after five faile attemps and making sure only admin has the rights to interevent. Allowing 24hrs to reset the password makes more
 A global migitation strategy can be implemented to enable MFA (Multi Factor Authentication) for logins and password reset.
@@ -39,6 +39,7 @@ A global migitation strategy can be implemented to enable MFA (Multi Factor Auth
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
 Firewall Rule: This will block all the incoming HTTP traffic coming from Source IP from the city of Los Angeles.
+![](Images/19-3.png)
   
 #### Question 2
 
@@ -48,10 +49,12 @@ Firewall Rule: This will block all the incoming HTTP traffic coming from Source 
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
 
-Forewall Rules:
+Firewall Rules:
  Block all the incoming HTTP traffic from dource HTTP Method is POSTVSI_Account_logon.php HTTP/1.1
  Block all the incoming HTTP traffic where the source User-Agent is Mozilla/4.0 (compatible; MSIE 6.0; Window NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)
-  
+ 
+ ![](Images/19-5.png)
+ ![](Images/19-4.png)
 
 
 ---
