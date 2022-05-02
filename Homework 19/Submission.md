@@ -38,7 +38,8 @@ A global migitation strategy can be implemented to enable MFA (Multi Factor Auth
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
-Firewall Rule: This will block all the incoming HTTP traffic coming from Source IP from the city of Los Angeles.
+Firewall Rule: 
+This will block all the incoming HTTP traffic coming from Source IP from the city of Los Angeles.
 ![](Images/19-3.png)
   
 #### Question 2
@@ -51,6 +52,7 @@ Firewall Rule: This will block all the incoming HTTP traffic coming from Source 
 
 Firewall Rules:
  Block all the incoming HTTP traffic from dource HTTP Method is POSTVSI_Account_logon.php HTTP/1.1
+ 
  Block all the incoming HTTP traffic where the source User-Agent is Mozilla/4.0 (compatible; MSIE 6.0; Window NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)
  
  ![](Images/19-5.png)
