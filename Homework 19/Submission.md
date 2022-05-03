@@ -19,7 +19,7 @@ Answers:
   2218 events were attack.
  ![](Images/19-2.png)
 
-Thi can be overcome by setting a minium time for password attempt, user account should be locked out after five failed attemps and making sure only admin has the rights to interevent. Allowing 24hrs to reset the password makes more
+Thi can be overcome by setting a minium time for password attempt, user account should be locked out after five failed attemps and making sure only admin has the rights to interevent. Allowing 24hrs to reset the password makes more secure.
 A global migitation strategy can be implemented to enable MFA (Multi Factor Authentication) for logins and password reset.
   
 #### Question 2
