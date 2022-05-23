@@ -12,7 +12,7 @@
 The following machines were identified on the network:
 - ELK
   - **Operating System**: Ubuntu
-  - **Purpose**: PentestingElasticsearch and Kibana
+  - **Purpose**: Elasticsearch and Kibana
   - **IP Address**: 192.168.1.100
 
 - CAPSTONE
@@ -21,12 +21,12 @@ The following machines were identified on the network:
   - **IP Address**: 192.168.1.105
 
 - KALI
-  - **Operating System**: Derbain Kali
+  - **Operating System**: Kali
   - **Purpose**: Pentesting
   - **IP Address**: 192.168.1.90
  
 - TARGET 1
-  - **Operating System**: Debian 
+  - **Operating System**: Debian GNU/Linux
   - **Purpose**: WordPress
   - **IP Address**:192.168.1.110
 
