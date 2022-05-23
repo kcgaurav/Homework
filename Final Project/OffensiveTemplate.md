@@ -46,7 +46,7 @@ password: michael
            : ls -al
            : nano services.html
            
-![](images/Flag1.png)
+![](images/Flag.png)
 ![](images/Flag 2.png)
 
 `flag2.txt`:
@@ -87,6 +87,7 @@ Password was cracke using john ripper uing following command
 command: john wp_hashes.txt
 user steven password is cracked: pink84
 
+Step 3:
 Once the password hash was cracked, then SSH into Steven to execute python to escalte root privilege
 Command: ssh steven@192.168.1.110
 password: pink84
