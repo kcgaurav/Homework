@@ -37,6 +37,7 @@ Two users can be seen:
 With a simple brut force user Michael password was cracked: Password was "michael"
 
 Command:ssh michael@192.168.1.110
+
 password: michael
 
 ![](images/password.png)
