@@ -11,7 +11,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 Command: $ nmap -sV 192.168.1.110
   
- ![](images/Nmap Scan.png)
+ ![](images/NmapScan.png)
 
 
 This scan identifies the services below as potential points of entry:
@@ -76,7 +76,7 @@ password: R@v3nSecurity
         SELECT * FROM wp_users;
         SELECT * FROM wp_posts;
 
-![](images/WP TABLE.png)
+![](images/WP-TABLE.png)
 ![](images/Flag3.png)
 
 
