@@ -29,13 +29,15 @@ The following vulnerabilities were identified on each target:
 Following user were identified by running wpscan command
 
 Command: wpscan --url http://192.168.1.110/wordpress --enumerate u
--Micheal
--Steven
 
+Two users can be seen:
 ![](images/User.png)
 
-
 With a simple brut force user Michael password was cracked: Password was "michael"
+
+Command:ssh michael@192.168.1.110
+password: michael
+![](images/Michael-Password.png)
 
  `flag1.txt`: 
  
