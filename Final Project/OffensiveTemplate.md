@@ -32,14 +32,14 @@ Command: wpscan --url http://192.168.1.110/wordpress --enumerate u
 
 Two users can be seen:
 
-![](images/User.png)
+![](images/user.png)
 
 With a simple brut force user Michael password was cracked: Password was "michael"
 
 Command:ssh michael@192.168.1.110
 password: michael
 
-![](images/Michael-Password.png)
+![](images/password.png)
 
  `flag1.txt`: 
  
