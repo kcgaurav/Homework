@@ -38,6 +38,7 @@ With a simple brut force user Michael password was cracked: Password was "michae
 
 Command:ssh michael@192.168.1.110
 password: michael
+
 ![](images/Michael-Password.png)
 
  `flag1.txt`: 
@@ -48,7 +49,7 @@ password: michael
            : nano services.html
            
 ![](images/Flag.png)
-![](images/Flag 2.png)
+![](images/Flag1.png)
 
 `flag2.txt`:
 
