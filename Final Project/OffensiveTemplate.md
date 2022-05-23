@@ -11,7 +11,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 Command: $ nmap -sV 192.168.1.110
   
- ![](Images/Nmap Scan.png)
+ ![](images/Nmap Scan.png)
 
 
 This scan identifies the services below as potential points of entry:
@@ -32,26 +32,28 @@ Command: wpscan --url http://192.168.1.110/wordpress --enumerate u
 -Micheal
 -Steven
 
-![](Images/User.png)
+![](images/User.png)
 
 
 With a simple brut force user Michael password was cracked: Password was "michael"
 
  `flag1.txt`: 
-    -Flag 1 was found in the following director:
+ 
+   -Flag 1 was found in the following director:
     Command: cd /var/www/html
            : ls -al
            : nano services.html
            
-![](Images/Flag1.png)
-![](Images/Flag 2.png)
+![](images/Flag1.png)
+![](images/Flag 2.png)
 
 `flag2.txt`:
+
     -Flage 2 was found in following directories:
      Command: cd /var/www/
             : ls -al
 
-![](Images/flag2.png)
+![](images/flag2.png)
 
 
 ### Exploitation
@@ -74,8 +76,8 @@ password: R@v3nSecurity
         SELECT * FROM wp_users;
         SELECT * FROM wp_posts;
 
-![](Images/WP TABLE.png)
-![](Images/Flag3.png)
+![](images/WP TABLE.png)
+![](images/Flag3.png)
 
 
 Step 2:
@@ -92,7 +94,7 @@ password: pink84
         :ls -al
         :cat falg4.txt
         
-![](Images/flag4.png)
+![](images/flag4.png)
 
 
 
