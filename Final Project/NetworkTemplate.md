@@ -13,7 +13,7 @@ You must inspect your traffic capture to answer the following questions:
     - 10.6.12.12
     
     ![](images/1.png)
-    ![](images/.png)
+    ![](images/2.png)
 
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
 
