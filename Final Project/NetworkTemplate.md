@@ -11,13 +11,20 @@ You must inspect your traffic capture to answer the following questions:
 2. What is the IP address of the Domain Controller (DC) of the AD network?
 
     - 10.6.12.12
+    
+    ![](images/1.png)
+    ![](images/.png)
 
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
 
     - June11.dll
+   
+   ![](images/3.png)
   
    
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+
+   ![](images/4.png)
 
 5. What kind of malware is this classified as?
 
@@ -33,10 +40,14 @@ You must inspect your traffic capture to answer the following questions:
     - IP address: 172.16.4.205
 
     - MAC address: 00:59:07:b0:63:a4
+
+  ![](images/5.png)
     
 2. What is the username of the Windows user whose computer is infected?
    
     - matthijs.devries
+
+   ![](images/7.png)
 
 3. What are the IP addresses used in the actual infection traffic?
 
@@ -60,7 +71,10 @@ You must inspect your traffic capture to answer the following questions:
       
       - BLANCO_DESKTOP
 
+  ![](images/9.png)
+
 2. Which torrent file did the user download?
-    
-    
-   - Betty_Boop_Rythm_on_the_Reservation.avi
+
+- Betty_Boop_Rythm_on_the_Reservation.avi
+
+![](images/10.png)
