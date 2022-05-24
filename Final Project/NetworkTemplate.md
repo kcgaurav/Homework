@@ -69,7 +69,7 @@ You must inspect your traffic capture to answer the following questions:
 
     - Computer host name
       
-      - BLANCO_DESKTOP
+      - BLANCO-DESKTOP
 
   ![](images/9.png)
 
