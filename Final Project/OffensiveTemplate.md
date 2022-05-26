@@ -40,7 +40,7 @@ Command:ssh michael@192.168.1.110
 
 password: michael
 
-![](images/password.png)
+![](images/Password.png)
 
  `flag1.txt`: 
  
