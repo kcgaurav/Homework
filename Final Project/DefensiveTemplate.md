@@ -47,7 +47,9 @@ Excessive HTTP Errors:
   - **Threshold**: Above 400
   - **Vulnerability Mitigated**: This alert helps Blue team to identify attacks and blocks suspicious acitivities on port 22.
   - **Reliability**: This aleat creats high reliabilitiy because measuring error codes 400 and above will filter any responses.
-
+  
+  
+![](images/HTTP_ERRORS.png)
 
 HTTP Request Size Monitor:
   - **Metric**: WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
@@ -55,11 +57,15 @@ HTTP Request Size Monitor:
   - **Vulnerability Mitigated**:This helps against DOS attack.
   - **Reliability**: This alert creates medium reliabilitiy because there is a possibility of large non malicious HTTP request traffic.
 
+![](images/HTTP-REQUEST.png)
+
 CPU Usage Monitor:
   - **Metric**: WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Threshold**: Above 0.5
   - **Vulnerability Mitigated**: Monitor CPU usages for any Code Injection
   - **Reliability**: This alert is high reliabilitiy because this help determine where to improve and monitior on CPU usage/spikes caused by any application.
+
+![](images/CPU_USAGES.png)
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
