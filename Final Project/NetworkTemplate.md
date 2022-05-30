@@ -51,7 +51,9 @@ You must inspect your traffic capture to answer the following questions:
 
 3. What are the IP addresses used in the actual infection traffic?
 
-    - 172.16.4.205 to 205.185.216.10
+    - 172.16.4.205 
+    
+    - [](images/6.png)
 
 4. As a bonus, retrieve the desktop background of the Windows host.
 
