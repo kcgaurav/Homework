@@ -67,7 +67,6 @@ CPU Usage Monitor:
 
 ![](images/CPU-USAGES.png)
 
-_TODO Note: Explain at least 3 alerts. Add more if time allows._
 
 ### Suggestions for Going Further (Optional)
 
