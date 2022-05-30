@@ -43,7 +43,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 Excessive HTTP Errors:
   - **Metric**: WHEN count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes
   - **Threshold**: Above 400
-  - **Vulnerability Mitigated**: This alert helps Blue team ti identify attacks and blocks suspicious acitivities on port 22.
+  - **Vulnerability Mitigated**: This alert helps Blue team to identify attacks and blocks suspicious acitivities on port 22.
   - **Reliability**: This aleat creats high reliabilitiy because measuring error codes 400 and above will filter any responses.
 
 
