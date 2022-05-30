@@ -63,7 +63,9 @@ CPU Usage Monitor:
   - **Metric**: WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Threshold**: Above 0.5
   - **Vulnerability Mitigated**: Monitor CPU usages for any Code Injection
-  - **Reliability**: This alert is high reliabilitiy because this help determine where to improve and monitior on CPU usage/spikes caused by any application.
+  - **Reliability**: This alert is high reliabilitiy because this help determine where to improve and monitior on CPU usage/spikes caused by any application.The use of                      Metricbeat captures the usage of servers and services such as Apache.
+
+
 
 ![](images/CPU-USAGES.png)
 
