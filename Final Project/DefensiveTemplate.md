@@ -9,6 +9,8 @@
 
 ### Network Topology
 
+ ![](images/Final-Network-Diagram.png)
+
 The following machines were identified on the network:
 - ELK
   - **Operating System**: Ubuntu
