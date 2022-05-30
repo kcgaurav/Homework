@@ -53,7 +53,7 @@ You must inspect your traffic capture to answer the following questions:
 
     - 172.16.4.205 
     
-    - [](images/6.png)
+    [](images/6.png)
 
 4. As a bonus, retrieve the desktop background of the Windows host.
 
