@@ -65,7 +65,7 @@ CPU Usage Monitor:
   - **Vulnerability Mitigated**: Monitor CPU usages for any Code Injection
   - **Reliability**: This alert is high reliabilitiy because this help determine where to improve and monitior on CPU usage/spikes caused by any application.
 
-![](images/CPU_USAGES.png)
+![](images/CPU-USAGES.png)
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
