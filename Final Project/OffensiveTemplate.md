@@ -99,6 +99,7 @@ command: john wp_hashes.txt
 user steven password is cracked: pink84
 
 Step 3:
+
 Once the password hash was cracked, then SSH into Steven to execute python to escalte root privilege
 
 Command: ssh steven@192.168.1.110
